@@ -69,4 +69,9 @@ exports.getAll = (req, res, next) => {
     });
 }
 
+exports.Pruebas = (req , res ) => {
+    console.log('Hola desde el controlador');
+}
+
+
 
